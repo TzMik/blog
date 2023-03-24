@@ -1,0 +1,41 @@
+baseURL = 'http://example.org/'
+languageCode = 'es-es'
+defaultContentLanguage = 'es'
+title = 'Mikel Cantero'
+theme = "hugo-coder"
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+	author = "Mikel Cantero"
+	info = "Ingeniero de Software"
+	description = "Página personal del Ingeniero de Software Mikel Cantero"
+	keywords = "blog,desarrollo web,ingeniería de software"
+	avatarurl = ""
+
+	favicon_32 = ""
+	favicon_16 = ""
+
+	since = 2023
+
+	colorScheme = "auto"
+	hidecolorschemetoggle = false
+
+[[params.social]]
+	name = "GitHub"
+	icon = "fa fa-github fa-2x"
+	weight = 1
+	url = "https://github.com/TzMik"
+
+[[menu.main]]
+	name = "Blog"
+	weight = 1
+	url = "posts/"
+
+[[menu.main]]
+	name = "Sobre mí"
+	weight = 2
+	url = "about/"
