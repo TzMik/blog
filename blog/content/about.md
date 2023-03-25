@@ -15,3 +15,9 @@ Entre los proyectos en los que he trabajado me gustaría destacar los siguientes
     - **Country Account Manager (*10 meses*):** Me diero la responsabilidad de administrar y obtener vacantes de empleo de unos cuantos países. Mi principal cometido era crawlear el contido para esos países.
     - **Fullstack developer (*8 meses*):** Me dieron la oportunidad de cambiar de puesto y dedicarme a rehacer la página de Fidanto para darle un cambio de estilo. Fue durante estos meses donde mejoré mucho mis habilidades en el desarrollo web (**HTML, CSS, JavaScript y PHP**).
     - **Teach Lead (*2 años y 8 meses*):** La mayoría de mi experiencia en Fidanto tuve este puesto. Como *teach lead* era el responsable del **desarrollo de nuevas funcionalidades, mantenimiento de servidores, bases de datos, algoritmos** y mucho más. Como líder de desarrollo tuve que aprender **habilidades blandas** como la enseñanza y el trabajo en equipo. También a identificar y describir las necesidades del negocio al resto del equipo de desarrollo.
+
+Además de mi experiencia técnica, también disfruto trabajando en equipo y liderando equipos de desarrollo. Soy un firme creyente en la comunicación clara y efectiva, y siempre estoy buscando maneras de mejorar la colaboración en equipo y la calidad del trabajo.
+
+Cuando no estoy programando, me gusta pasar tiempo al aire libre, viajar y leer libros sobre tecnología, autoconocimiento y otros temas que me aporten nuevos conocimiento y habilidades. También estoy involucrado en la comunidad de tecnología y programación, y me gusta informarme y hablar sobre las últimas tendencias y herramientas de la industria.
+
+Si estás interesado en trabajar conmigo, no dudes en contactarme. Me encantaría discutir cualquier proyecto de software emocionante y desafiante que tengas en mente.
