@@ -1,3 +1,16 @@
++++
+draft = false
+date = 2023-04-07T12:08:53-06:00
+title = "¿Qué son los traits en la POO?"
+description = "En este post veremos qué es y para qué sirven las traits en la Programación Orientada a Objetos"
+slug = "traits-en-la-poo"
+authors = ["Mikel Cantero", "Chat GPT"]
+tags = ["programación orientada a objetos", "php", "traits"]
+categories = ["programación orientada a objetos"]
+externalLink = ""
+series = []
++++
+
 En la programación orientada a objetos, un trait **es una forma de reutilizar código que permite definir un conjunto de métodos que pueden ser utilizados por varias clases diferentes**. Un trait se define como una colección de métodos que se pueden incluir en una o varias clases, lo que permite compartir funcionalidades comunes entre ellas.
 
 Al igual que las interfaces, los traits son una característica introducida en PHP para mejorar la reutilización de código y reducir la complejidad del código. **A diferencia de las interfaces, que solo pueden contener métodos abstractos, los traits pueden contener tanto métodos abstractos como métodos concretos (con implementación), propiedades, constantes y cualquier otra definición de clase**.
