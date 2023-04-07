@@ -1,6 +1,6 @@
 +++
 draft = false
-date = 2023-04-07T12:08:53-06:00
+date = 2023-04-07T13:08:53-06:00
 title = "¿Qué son los traits en la POO?"
 description = "En este post veremos qué es y para qué sirven las traits en la Programación Orientada a Objetos"
 slug = "traits-en-la-poo"
