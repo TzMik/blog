@@ -1,3 +1,16 @@
++++
+draft = false
+date = 2023-04-07T14:08:53-06:00
+title = "Diferencias entre clases abstractas y traits"
+description = "En este post veremos en qué se diferenecian las clases abstractas y los traits"
+slug = "diferencias-entre-clases-abstractas-y-traits"
+authors = ["Mikel Cantero", "Chat GPT"]
+tags = ["programación orientada a objetos", "php", "traits", "abstracción"]
+categories = ["programación orientada a objetos"]
+externalLink = ""
+series = []
++++
+
 Tanto una clase abstracta como un trait son formas de reutilizar código en la programación orientada a objetos, pero hay algunas diferencias importantes entre ellos.
 
 Una clase abstracta es una clase que no se puede instanciar directamente, sino que se utiliza como una plantilla para crear otras clases que heredan de ella. Las clases abstractas pueden contener métodos abstractos (sin implementación) y métodos concretos (con implementación), así como propiedades, constantes y cualquier otra definición de clase. Cuando se hereda de una clase abstracta, se deben implementar todos los métodos abstractos definidos en la clase padre.
