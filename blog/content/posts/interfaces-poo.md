@@ -1,8 +1,21 @@
++++
+draft = false
+date = 2023-04-07T12:08:53-06:00
+title = "¿Qué son las interfaces en la POO?"
+description = "En este post veremos qué es y para qué sirven las interfaces en la Programación Orientada a Objetos"
+slug = "interfaces-en-la-poo"
+authors = ["Mikel Cantero", "Chat GPT"]
+tags = ["programación orientada a objetos", "php", "interfaces"]
+categories = ["programación orientada a objetos"]
+externalLink = ""
+series = []
++++
+
 ## Introducción
-Las interfaces son una parte esencial de la programación orientada a objetos (POO). Una interfaz es un conjunto de métodos abstractos que una clase debe implementar para cumplir con un contrato determinado. En este artículo, explicaremos en detalle qué son las interfaces, sus ventajas y desventajas y un ejemplo con PHP.
+Las interfaces son una parte esencial de la programación orientada a objetos (POO). **Una interfaz es un conjunto de métodos abstractos que una clase debe implementar para cumplir con un contrato determinado**. En este artículo, explicaremos en detalle qué son las interfaces, sus ventajas y desventajas y un ejemplo con PHP.
 
 ## ¿Qué son las interfaces?
-En POO, una interfaz es un conjunto de métodos abstractos que define un contrato que las clases que implementan dicha interfaz deben cumplir. Una interfaz puede contener tanto métodos abstractos como constantes, pero no puede contener variables ni métodos concretos (métodos que tienen una implementación).
+En POO, una interfaz es un conjunto de métodos abstractos que define un contrato que las clases que implementan dicha interfaz deben cumplir. Una interfaz puede contener tanto métodos abstractos como constantes, pero **no puede contener variables ni métodos concretos (métodos que tienen una implementación)**.
 
 ## Ventajas de las interfaces
 Las interfaces proporcionan varias ventajas en la programación orientada a objetos:
@@ -23,7 +36,7 @@ Si bien las interfaces proporcionan muchas ventajas en la programación orientad
 2. **Sobrecarga de métodos:** Las interfaces pueden introducir una sobrecarga de métodos en una clase que las implementa. Esto puede hacer que la clase sea más difícil de entender y mantener.
 
 ## Ejemplo con PHP
-Supongamos que queremos implementar un sistema de pago en línea en nuestro sitio web. Para ello, definimos una interfaz llamada "Pago" que contiene los métodos "realizarPago" y "cancelarPago":
+Supongamos que queremos implementar un sistema de pago en línea en nuestro sitio web. Para ello, definimos una interfaz llamada `Pago` que contiene los métodos `realizarPago` y `cancelarPago`:
 
 ```php
 interface Pago {
@@ -31,8 +44,8 @@ interface Pago {
   public function cancelarPago();
 }
 ```
-A continuación, creamos una clase llamada "PagoTarjeta" que implementa la interfaz "Pago":
-```
+A continuación, creamos una clase llamada `PagoTarjeta` que implementa la interfaz `Pago`:
+```php
 class PagoTarjeta implements Pago {
   public function realizarPago($cantidad) {
     // código para realizar el pago con tarjeta de crédito
@@ -43,7 +56,7 @@ class PagoTarjeta implements Pago {
   }
 }
 ```
-Por último, creamos una clase llamada "PagoPaypal" que también implementa la interfaz "Pago":
+Por último, creamos una clase llamada `PagoPaypal` que también implementa la interfaz `Pago`:
 ```php
 class PagoPaypal implements Pago {
   public function realizarPago($cantidad) {
@@ -63,7 +76,7 @@ $miPago->realizarPago(50);
 $miOtroPago = new PagoPaypal();
 $miOtroPago->realizarPago(30);
 ```
-En este ejemplo, hemos utilizado dos clases diferentes que implementan la misma interfaz "Pago". Esto nos permite utilizar ambas clases de manera polimórfica, es decir, podemos utilizar los mismos métodos para realizar y cancelar un pago sin preocuparnos por la implementación interna de cada clase.
+En este ejemplo, hemos utilizado dos clases diferentes que implementan la misma interfaz `Pago`. Esto nos permite utilizar ambas clases de manera polimórfica, es decir, podemos utilizar los mismos métodos para realizar y cancelar un pago sin preocuparnos por la implementación interna de cada clase.
 
 ## Conclusión
 En resumen, las interfaces son una parte importante de la programación orientada a objetos. Permiten separar la interfaz pública de una clase de su implementación interna, lo que a su vez reduce el acoplamiento entre clases, mejora la flexibilidad y la reutilización de código, y permite la utilización polimórfica de objetos. Sin embargo, también pueden introducir complejidad y sobrecarga de métodos en una clase que las implementa. Es importante tener en cuenta estas ventajas y desventajas al utilizar interfaces en nuestro código.
